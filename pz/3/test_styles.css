@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    font-family: serif;
+    background-image: url("bg.jpg"); /* вторая картинка */
+    background-size: cover;
+}
+
+.wrapper{
+    width: 500px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+h1{
+    color:#a40000;
+    margin-bottom:15px;
+    font-size:32px;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+    background: rgba(255,255,255,0.3);
+    border:6px solid #8f8f8f;
+}
+
+th, td{
+    border:3px solid #8f8f8f;
+    padding:10px 15px;
+    font-size:20px;
+}
+
+th{
+    color:#a40000;
+    font-weight:bold;
+}
+
+td{
+    color:black;
+}
